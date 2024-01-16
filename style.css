@@ -2,6 +2,9 @@
   font-family: "Poppins";
   src: url("Poppins-Medium.ttf") format("ttf");
 }
+::selection {
+  background: tomato;
+}
 
 * {
   margin: 0;
@@ -42,4 +45,5 @@ body {
 .container button {
   background-color: rgb(250, 154, 137);
   padding: 15px 10px;
+  transition: all 1s;
 }
