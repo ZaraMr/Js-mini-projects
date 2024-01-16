@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-Medium.ttf") format("ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.container :where(textarea, button) {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.container textarea {
+  border: 1px solid #999;
+  padding: 10px 10px 30px;
+}
+
+.container button {
+  background-color: rgb(250, 154, 137);
+  padding: 15px 10px;
+}
